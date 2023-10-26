@@ -1,0 +1,71 @@
+@import url('Home%20Page%20CSS.css');
+
+/* CSS to center the video */
+.video-container {
+	padding-left:130px;
+}
+
+/* Styles for the content container */
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add some space between video and paragraph */
+}
+
+/* Styles for the left side (video) */
+.left-content {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* Styles for the right side (paragraph) */
+.right-content {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Styles for the video */
+iframe {
+	padding-left:100px;
+    
+}
+
+/* Additional styles as needed */
+
+.paragraph-box{
+	margin-left: 50%; /* Set the margin to push the paragraph box to the right of the image */
+	width:75%;
+	padding-bottom:40px;
+}
+
+.picture-box{
+	  float: left; /* Float the image to the left */
+    width: 50%; /* Set the width for the image container */
+	padding-left:200px;
+}
+
+.container {
+    overflow: hidden; /* Clear floats within the container */
+   
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+}
+
+.screenshot{
+	text-align:center;
+	padding-left:350px;
+}
+
+footer {
+    background-color: #0097B2; /* Light blue background color */
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+

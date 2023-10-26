@@ -1,0 +1,185 @@
+/* Basic styling for the body */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0097B2; /* Light blue background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}
+/* Header styling */
+h1 {
+    background-color: #white;
+    color: #0097B2;
+    text-align: center;
+	text-align:left;
+	font-size:36px;
+	padding-left:250px;
+	padding-top:0px;
+}
+
+h2{
+	background-color:#white;
+	color:#0097B2;
+	text-align:left;
+	font-size:24px;
+	padding-left:250px;
+}
+h5{
+	background-color:#white;
+	color:#0097B2;
+	text-align:left;
+	font-size:16px;
+	padding-left: 250px;
+}
+
+p {
+    background-color: #white;
+    color: black;
+    text-align: left;
+    font-size: 18px; /* Increase font size for better visibility */
+    line-height: 1.6; /* Increase line height for better readability */
+    padding-left: 250px;
+    margin-bottom: 20px; /* Add margin to separate the paragraph from the headings */
+}
+
+
+
+
+
+
+footer {
+    background-color: #0097B2; /* Light blue background color */
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #0097B2;
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* 10px padding on top and bottom, no padding on left and right */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+/* Adjusted font size and padding */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; /* Adjust the font size */
+    padding: 0 20px; /* 20px padding on left and right, no padding on top and bottom */
+}
+
+/* Add hover effect */
+nav a:hover {
+    background-color: #0CC0DF;
+    color: #fff;
+}
+
+nav li:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #0CC0DF; /* Use the same color as the hover effect */
+    transition: transform 1s, opacity 0.3s;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    opacity: 0;
+}
+
+nav li:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+
+ 
+ /* Add this CSS to your "Professional Page CSS.css" file or in a <style> tag in your HTML */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px; /* Adjust as needed */
+}
+
+.text {
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+}
+
+.image {
+    width: 75%; /* Adjust the width as needed */
+    text-align: right;
+    margin-right: 0; /* Reduce the margin to bring the image closer to the text */
+}
+
+
+.arrow {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add this CSS to your "Professional Page CSS.css" file or in a <style> tag in your HTML */
+.bottom-image {
+    margin-top: -100px; /* Adjust the margin as needed */
+
+}
+
+	
+
+
+
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0097B2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 490px;
+	margin-left:auto;
+}
+
+.learn-more-button:hover {
+    background-color:#0CC0DF ;
+}
+
+/* Center the "Professional Page" content */
+.centered-content {
+    text-align: center;
+    margin: 0 auto;
+	padding-left: 30px;
+}
+
+/* Add some spacing between the title and the PDF */
+h2 {
+    margin-top: 20px;
+}
+
